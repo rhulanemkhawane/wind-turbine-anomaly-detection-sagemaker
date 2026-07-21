@@ -1,0 +1,17 @@
+{
+  "app": "python3 app.py",
+  "watch": {
+    "include": ["**"],
+    "exclude": [
+      "README.md",
+      "cdk*.json",
+      "requirements*.txt",
+      "**/__pycache__",
+      "tests"
+    ]
+  },
+  "context": {
+    "schedule_rate_minutes": 10,
+    "alert_email": ""
+  }
+}
